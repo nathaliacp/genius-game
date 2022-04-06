@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body {
+    background-color: #23222B;
+    overflow: hidden;
+}
+
+main {
+    width: 56.25rem;
+    display: flex;
+    justify-content: center;
+}
+
+h1,
+h3,
+button {
+    font-family: Poppins;
+    border-radius: 0.313rem;
+    border: none;
+    padding: 0.625rem;
+    margin: 0.625rem;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #99e2b4;
+    text-align: center;
+}
+
+h3 {
+    font-size: 1.875rem;
+    color: #99e2b4;
+    text-align: center;
+}
+
+.buttonInit {
+    background-color: #99e2b4;
+    border: none;
+    font-weight: bold;
+    color: black;
+    margin-top: 0.625rem;
+    width: 9.375rem;
+    height: 1.875rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.initialGame {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-top: 15.625rem;
+}
+
+.initialGameHidden {
+    display: none;
+}
+
+.circleLoading {
+    border: #1e6a61 solid 0.125rem;
+    border-left-color: #88d4ab;
+    border-radius: 100%;
+    animation: loading 2s linear infinite;
+    width: 26.875rem;
+    height: 26.875rem;
+    margin-top: -1.563rem;
+    position: absolute;
+    top: 50%;
+    left: 13.75rem;
+}
+
+.screenInit {
+    width: 26.875rem;
+    height: 26.875rem;
+    margin-top: 24.063rem;
+    margin-left: 13.75rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+}
+
+@keyframes loading {
+    0% {
+        transform: rotate(0);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.buttonsLayout {
+    padding: 0.625rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    transform: translateX(28.125rem);
+    margin-top: 6.25rem;
+}
+
+.buttonsLayoutHidden {
+    display: none;
+}
+
+.button {
+    width: 18.75rem;
+    height: 18.75rem;
+}
+
+.button.button--purple {
+    background-color: #6A4C93;
+    border-radius: 100% 0 0 0;
+    margin: 0.625rem;
+    cursor: pointer;
+}
+
+.button.purple--active {
+    background-color: #9d5bfa;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+    box-shadow: 0.313rem;
+    cursor: pointer;
+    transform: scale(1.03, 1.03);
+}
+
+.button.purple--active:active {
+    background-color: #9d5bfa;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+    box-shadow: 0.313rem;
+    cursor: pointer;
+    transform: scale(1.03, 1.03);
+}
+
+.button.button--pink {
+    background-color: #BD0454;
+    border-radius: 0 100% 0 0;
+    margin: 0.625rem;
+    cursor: pointer;
+}
+
+.button.pink--active {
+    background-color: #ff00a6;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+    box-shadow: 0.313rem;
+    cursor: pointer;
+    transform: scale(1.03, 1.03);
+}
+
+.button.pink--active:active {
+    background-color: #ff00a6;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+    box-shadow: 0.313rem;
+    cursor: pointer;
+    transform: scale(1.03, 1.03);
+}
+
+.button.button--blue {
+    background-color: #2F65BD;
+    border-radius: 0 0 100% 0;
+    margin: 0.625rem;
+    cursor: pointer;
+}
+
+.button.blue--active {
+    background-color: #3b97ff;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+    box-shadow: 0.313rem;
+    cursor: pointer;
+    transform: scale(1.03, 1.03);
+}
+
+.button.blue--active:active {
+    background-color: #3b97ff;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+    box-shadow: 0.313rem;
+    cursor: pointer;
+    transform: scale(1.03, 1.03);
+}
+
+.button.button--yellow {
+    background-color: #BF9010;
+    border-radius: 0 0 0 100%;
+    margin: 0.625rem;
+    cursor: pointer;
+}
+
+.button.yellow--active {
+    background-color: #ffde0b;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+    box-shadow: 0.313rem;
+    cursor: pointer;
+    transform: scale(1.03, 1.03);
+}
+
+.button.yellow--active:active {
+    background-color: #ffde0b;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+    box-shadow: 0.313rem;
+    cursor: pointer;
+    transform: scale(1.03, 1.03);
+}
+
+.infoButton {
+    border-radius: 100%;
+    background-color: black;
+    width: 20.625rem;
+    height: 20.625rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 17.813rem;
+    top: 10.313rem;
+}
+
+.restartGame {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-top: 15.625rem;
+}
+
+.restartGameHidden {
+    display: none;
+}
+
+.restartScreen {
+    width: 26.875rem;
+    height: 26.875rem;
+    margin-top: 24.063rem;
+    margin-left: 13.75rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+}
+
+.reloadButton {
+    background-color: #99e2b4;
+    border: none;
+    font-weight: bold;
+    color: black;
+    margin-top: 0.625rem;
+    width: 9.375rem;
+    height: 1.875rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
