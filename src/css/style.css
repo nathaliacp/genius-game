@@ -68,14 +68,14 @@ h3 {
     margin-top: -1.563rem;
     position: absolute;
     top: 50%;
-    left: 13.75rem;
+    left: 16.75rem;
 }
 
 .screenInit {
     width: 26.875rem;
     height: 26.875rem;
     margin-top: 24.063rem;
-    margin-left: 13.75rem;
+    margin-left: 16.75rem;
     display: flex;
     flex-direction: column;
     align-items: center;
