@@ -6,3 +6,5 @@ Foi criado durante o M2 na Kenzie Academy Brasil, com e propósito de
 exercitar a lógica e trabalhar em grupo.
 
 O projeto foi desenvolvido utilizando as linguagens HTML, CSS e Javascript!!
+
+## Site: https://nathaliacp.github.io/genius-game/
